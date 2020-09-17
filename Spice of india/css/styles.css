@@ -1,0 +1,612 @@
+/*Stylesheet for Indian Restaurant Web Design Project*/
+/*
+
+/*BODY*/
+
+body{
+	font-family: 'roboto','arial',sans-serif;
+	margin: 0px;
+}
+
+/* style header elements */
+
+#searchBar{
+
+	padding: 5px;
+}
+
+#breadCrumb a {
+	background-color: grey;
+}
+
+/* header element */
+
+/*LAYOUT*/
+
+.container{
+	
+	padding:0% 10%;
+	margin: 0px auto;
+	
+}
+
+.sectionGrey{
+	padding-top: 40px;
+	background-color: #FFEF91;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	margin-bottom: 30px;
+	
+	
+}
+
+
+
+
+.column3 {
+	float: left;
+	width: 33.3%;
+	
+	
+}
+
+.column2{
+	float: left;
+	width: 50%;
+}
+
+.column4{
+	float: left;
+	width: 25%;
+}
+
+.column1{
+	//float:left;
+	width: 80%;
+	margin: auto;
+	text-align:center;
+}
+
+.col-3-img{
+	width: 90%;
+	height:200px;
+	padding-right: 15px;
+}
+
+.col-4-img{
+	width: 90%;
+	height:150px;
+	padding-right: 15px;
+	
+}
+
+
+.clear{
+	clear: both;
+}
+
+/*TEXT STYLING*/
+
+h1{
+	font-size: 16px;
+	text-transform:uppercase;
+	margin: 0px;
+	color: #da8908;
+}
+
+h2{
+	font-size: 40px;
+	
+	
+}
+
+h3{
+	font-size: 25px;
+	//margin-bottom: 15px;
+}
+
+h2, h3 {
+	text-align: center;
+	margin: 15px 0px 15px 0px;
+}
+
+h4{
+	text-align: center;
+	font-size: 15px;
+	line-height:25px;
+	font-style: italic;
+}
+
+p{
+	font-size: 16px;
+}
+
+.bodyText{
+	text-align: left;
+	padding-right: 15px;
+}
+
+a{
+	text-decoration: none;
+	color:#B2123D;
+}
+
+
+
+/*HERO SECTION*/
+
+#hero {
+	height: 400px;
+	text-align: center;
+	background: url("../images/carosel2.jpg") no-repeat center fixed;
+	background-size: cover;
+	
+	
+}
+
+#hero h2{
+	line-height: 250px;
+	color: #da8908;
+	font-size: 60px;
+	text-shadow: 1px 1px 1px black;
+}
+
+#hero li a{
+	color: #B2123D;
+	font-size: 20px;
+	font-weight: bold;
+	display:block;
+	padding: 20px 20px;
+	background-color: rgba(255, 255, 255,0.5);
+	//text-shadow: 1px 1px 1px black;
+	text-transform: uppercase;
+}
+
+#hero li a:hover{
+	color: #da8908;
+	
+}
+
+
+/*SITE ID & UTILITIES*/
+
+#breadCrumbs {
+	display: inline-block;
+	//float: right;
+}
+
+#siteidUtilitiesBar{
+	margin:0px auto;
+	text-align: center;
+	height: 50px;
+	line-height:50px;
+	
+	
+
+}
+
+.utilities-left{
+	width: 40%;
+	float: left;
+	//display: inline-block;
+}
+
+.utilities-right{
+	width: 40%;
+	float: right;
+	/*display: inline-block;*/
+
+	
+}
+
+.utilities-right{
+	width: 40%;
+	float: right;
+	/*display: inline-block;*/
+	
+}
+#header{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+#logo {
+	float: left;
+	height:40px;
+	
+}
+
+#breadCrumbs{
+	font-size: 10px;
+	display: inline;
+	margin-right: 50px;
+}
+
+#searchBar{
+	height: 15px;
+	width: 100px;
+	border-radius: 10%;
+}
+
+
+/*NAVIGATION*/
+
+#navbar {
+	background-color: #B2123D;
+	/*background-color: #da8908;*/
+	/*height:20px;*/
+	padding: 5px 0px;
+	margin: 0 auto;
+	
+}
+
+
+
+
+
+ul{
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+	padding-right: 5px;
+	text-decoration: none;
+}
+
+ul li a{
+	color: #e6d5d5;
+	font-size: 18px;
+}
+
+
+a:hover{
+	color: #42bcf4;
+}
+
+/*STYLING FOR TOPNAV (Hamburger Icon)*/
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #B2123D;
+    
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	#float: left;
+	
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+  
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #8c0d2f;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+
+/*OPENING HOURS SECTION*/
+
+#openingHours{
+	background-color: #B2123D;
+	padding-top: 40px;
+	color: #f2f2f2;
+}
+
+iframe{
+	width: 100%;
+	height: 350px;
+	border: 2px solid grey;
+	margin-bottom: 30px;
+}
+
+.columnOpeningHours {
+	//float: left;
+	width: 50%;
+	margin: 0px auto;
+}
+
+table {
+	margin:auto;
+	border:1px solid black;
+}
+
+tr:nth-child(odd) {
+	background-color: #595959;
+}
+tr:nth-child(even) {
+	background-color: #999999;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.phoneEmail{
+	text-align: center;
+	margin-bottom: 0px;
+	padding-bottom: 30px;
+}
+
+/*FOOTER SECTION*/
+#footerNavbar {
+	background-color: #242121;
+	//height:20px;
+	padding: 5px 0px;
+	margin: 0 auto;
+	
+}
+
+/*CONTACT FORM*/
+
+fieldset{
+	width:75%;
+	margin: 15px auto;
+	border: 2px solid grey;
+	border-radius: 5px;
+	background-color: #ad210a;
+	color: white;
+	padding: 20px;
+	
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submitQuestion {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    float: left;
+}
+#comments{
+	width: 100%;
+	margin-right: 10px;
+}
+label{
+	margin: 5px;
+	text-align: left;
+	float: left;
+}
+
+fieldset button{
+	
+	padding: 5px;
+	font-weight: bold;
+}
+#messageBox{
+	color: yellow;
+}
+
+
+
+
+/* carousel ------------ */
+
+.slider {
+  margin: 0px 0px;
+  width: 1100px; /* Update to your slider width */
+  height: 400px; /* Update to your slider height */
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+ 
+}
+
+.sliderBG{
+	height: 400px;
+	padding:0px;
+	margin:0px;
+	text-align: center;
+	background-size: auto;
+	width: 1100px;
+	
+}
+#sliderImage1{
+	background: url("../images/carosel1.jpg") no-repeat center;
+	
+}
+
+#sliderImage2{
+	background: url("../images/carosel2.jpg") no-repeat center;
+	
+}
+
+#sliderImage3{
+	background: url("../images/carosel3.jpg") no-repeat center;
+	
+}
+
+#sliderImage4{
+	background: url("../images/carosel4.jpg") no-repeat center;
+	
+}
+
+.sliderText{
+	line-height: 500px;
+	margin: 0px;
+	padding:0px;
+	font-size:70px;
+	letter-spacing: -2px;
+	color:#da8908;
+	text-shadow: 2px 2px 2px black;
+}
+/* carousel end ------ */	
+
+
+
+/*STYLE FOR RESERVATION MODAL WINDOW*/
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen  and (max-width: 680px)
+{
+	/*.container{*/
+	/*	width: 94%;*/
+	/*	margin: 0% 3%;*/
+		
+	/*}*/
+	
+	.container{
+		padding: 0px;
+		width:94%;
+		margin:0% 3%;
+	}
+	
+	.column3 {
+		width: 94%;
+		margin: 0 3%;
+	}
+	
+	div .utilities-left{
+		width:100%;
+	}
+	div .utilities-right{
+		display: none;
+	}
+	
+	h1{
+		font-size: 12px;
+	}
+	
+	#hero h2{
+	line-height: 250px;
+	color: #da8908;
+	font-size: 25px;
+	text-shadow: 1px 1px 1px black;
+}
+	
+	#openingHours{
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	
+	.columnOpeningHours {
+		width: 90%;
+		padding: 0% auto;
+    }
+	
+		
+	.columnOpeningHours p {
+		display: none;
+	}
+	
+	
+	
+	.slider {
+		display:none;
+	}
+	
+	iframe{
+		height:250px;
+		width: 80%;
+	}
+	
+	.bodyText{
+		padding: 0px;
+	}
+
+
+}
+
+/*MEDIA Q FOR HAMBURGER*/
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+  ul.topnav li {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
